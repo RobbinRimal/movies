@@ -11,6 +11,7 @@ import java.util.List;
 
 @Path("/movies")
 public class MoviesCatelog {
+    List<Movies> moviesList = new java.util.ArrayList<>();
     List<String> movies = new ArrayList<>();
 
     @GET
